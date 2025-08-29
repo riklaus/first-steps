@@ -1,5 +1,6 @@
 body {
     background-color: #f0f0f0;
+    font-family: 'Inter', sans-serif;
 }
 
 div {
@@ -7,7 +8,6 @@ div {
     max-width: 680px;
     margin: 40 auto;
     text-align: center;
-    font-family: Arial, sans-serif;
 }
 
 ul {
@@ -24,4 +24,17 @@ li a {
     text-decoration: none;
     border-radius: 8px;
     font-weight: bold;
+}
+
+li a:hover {
+    opacity: 0.9;
+    transform: scale(1.02);
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
 }
