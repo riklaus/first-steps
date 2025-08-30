@@ -48,13 +48,13 @@ img {
 #switch {
     position: relative;
     width: 64px;
-    margin: 4px auto; /* Para centralizar o botão */
+    margin: 4px auto 24px; /* Para centralizar o botão */
 }
 
 #switch button {
     width: 32px;
     height: 32px;
-    background: white url(./assets/moon-stars.svg); /* Ícone da lua */
+    background: white url(./assets/moon.svg); /* Ícone da lua */
     background-repeat: no-repeat;
     background-position: center;
     border: 0;
